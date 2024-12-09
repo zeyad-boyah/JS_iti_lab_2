@@ -12,7 +12,7 @@ do {
         radius = prompt("Please provide a valid radius.");
     }
     number_of_tries++
-} while (!/^[0-9]$/.test(radius));
+} while (!/^[0-9]+$/.test(radius));
 
 alert (`the circle area is ${circle_area(radius)}`);
 
@@ -31,7 +31,7 @@ do {
         number = prompt("Please provide a valid number.");
     }
     number_of_tries++
-} while (!/^[0-9]$/.test(number));
+} while (!/^[0-9]+$/.test(number));
 
 alert (`the square root of the number ${number} is ${sqrt_of_num(number)}`);
 
